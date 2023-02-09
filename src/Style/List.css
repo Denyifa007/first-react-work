@@ -1,0 +1,89 @@
+.data{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: center;
+    place-items: center;
+    background: linear-gradient(darkblue, blue);
+    padding: 10rem 0;
+    position: relative;
+}
+.inner-data{
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 5px;
+    height: 11rem;
+    width: 12rem;
+
+}
+.inner-data p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.btn{
+    width: 12rem;
+    height: 2rem;
+    background-color:#526BF7;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+}
+/* .body{
+    background-color: darkblue;
+    
+}
+.Add{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+} */
+.Add{
+    position: absolute;
+    top: 2rem;
+    color: white;
+}
+@media(max-width: 425px) {
+    .data{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-content: center;
+        place-items: center;
+        background: linear-gradient(darkblue, blue);
+        padding: 10rem 0;
+        position: relative;
+    }
+    .inner-data{
+        background-color: white;
+        padding: 1rem;
+        margin: 1rem 0;
+        text-align: center;
+        border-radius: 5px;
+        height: 11rem;
+        width: 8rem;
+    
+    }
+    .inner-data p{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .btn{
+        width: 6rem;
+        height: 2rem;
+        background-color:#526BF7;
+        font-size: 13px;
+        color: white;
+        border-radius: 5px;
+    }
+    .Add{
+        position: absolute;
+        top: 2rem;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+    }
+
+
+}
