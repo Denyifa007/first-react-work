@@ -4,7 +4,7 @@
     place-content: center;
     place-items: center;
     background: linear-gradient(darkblue, blue);
-    padding: 10rem 0;
+    padding: 15rem 0;
     position: relative;
 }
 .inner-data{
@@ -45,6 +45,15 @@
     top: 2rem;
     color: white;
 }
+.App-logo {
+    height: 50vmin;
+    pointer-events: none;
+    position: absolute;
+    width: 10rem;
+    top: 0.5rem;
+    left: 6.5rem;
+    
+  }
 @media(max-width: 425px) {
     .data{
         display: grid;
@@ -52,7 +61,7 @@
         place-content: center;
         place-items: center;
         background: linear-gradient(darkblue, blue);
-        padding: 10rem 0;
+        padding: 13rem 0;
         position: relative;
     }
     .inner-data{
@@ -86,6 +95,15 @@
         text-align: center;
         font-size: 13px;
     }
+    .App-logo {
+        height: 50vmin;
+        pointer-events: none;
+        position: absolute;
+        width: 10rem;
+        top: 1rem;
+        left: 5rem;
+        
+      }
 
 
 }

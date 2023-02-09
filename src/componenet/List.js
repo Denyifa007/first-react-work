@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { data } from './Db';
 import '../Style/List.css'
+import img from '../Assets/logo.svg'
 
 const List = () => {
     const [datas, setData] = useState(data)
@@ -14,7 +15,9 @@ const List = () => {
     }
   return (
     <div className='data'>
-        <div className='Add'><h1>Choose your prefered plan</h1></div>
+        <div className='Add'><h1>Choose your prefered plan</h1>
+        <img src={img} alt="image2" className='App-logo' />
+        </div>
       
         {datas.map((datum)=>{
             const{priceInNaira,priceInDollar,priceInEuro,title,id} = datum
