@@ -22,8 +22,8 @@ const List = () => {
                 <div className='inner-data' key={id}>
                     <h4>{title}</h4>
                     <p>price in naira : {priceInNaira}</p>
-                    <p>price in naira : {priceInDollar}</p>
-                    <p>price in naira : {priceInEuro}</p>
+                    <p>price in dollars : {priceInDollar}</p>
+                    <p>price in euros : {priceInEuro}</p>
                     <button className='btn' onClick={()=> handleDelete(id)}>Delete item</button>
                 </div>
             )

@@ -29,6 +29,7 @@
     font-size: 13px;
     color: white;
     border-radius: 5px;
+    border: none;
 }
 /* .body{
     background-color: darkblue;
@@ -76,6 +77,7 @@
         font-size: 13px;
         color: white;
         border-radius: 5px;
+        border: none;
     }
     .Add{
         position: absolute;
